@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+body{
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+h1, h3{
+    font-family: 'Fredericka the Great', Tahoma, Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 3rem;
+    color: darkorange;
+}
+
+p, li{
+    font-family:'Courier New',Arial, sans-serif;
+    color: #BFA678;
+    font-size: 1.3rem;
+    line-height: 1.5;  /*Distância entre uma linha e outra*/
+}
+
+a{
+    color: #BFA678;
+    text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline; 
+}
+
+img{
+    border-radius: 30px 95px 5px 95px;
+    box-shadow: 10px 4px 25px darkorange ;
+} /*Colocando sombra ao redor da img, 1= left e right... 2 parte de cima parte de baixo...3 quanto espalhado ele vai ser...e a cor. */ 
